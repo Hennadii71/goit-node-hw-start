@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "start:dev": "nodemon index"
   },
@@ -13,5 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.4",
+    "yargs": "^17.7.2"
   }
 }
