@@ -13,7 +13,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
       const allContacts = await listContacts();
       return console.table(allContacts);
       break;
-    case "getId":
+    case "get":
       const contactId = await getContactById(id);
       return console.log(contactId);
       break;
